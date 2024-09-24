@@ -1,0 +1,93 @@
+Paragraph:
+
+    Syntax:
+
+        <p>Content</p>
+
+Installation of Live Server from extensions of VSC.
+
+In Visual Studio Code - On right side 5 tab extensions
+
+    We need to search - Live server
+
+    Once you found that extension on right tab, you need to open it. Later click on install button.
+
+Image: 
+
+    Syntax:
+
+        <img src="relativePath" alt="Message"/>
+
+Anchor: Using this we can navigate from one page to another page.
+
+    Syntax:
+
+        <a href="relativePath">Content</a>
+
+            href - Hyper Reference
+
+Division: Used to divide the web page into multiple portions.
+
+    Syntax:
+
+        <div>
+            Group of elements..
+        
+        </div>
+
+Button: 
+
+    Syntax:
+
+        <button>Content</button>
+
+CSS - Cascading Style Sheet
+
+> CSS adds stylings to the html elements present in web page.
+
+> File extension
+
+    fileName.css
+
+> Whole css comes in form of predefined properties
+
+    propertyName: value;
+
+    propertyName: value;
+
+    propertyName: value;
+
+    color: black | white | green | yellow;
+
+    background-color: black | white | green | yellow;
+
+    font-size: 12px;
+
+    font-family: Times New Roman | Arial | Roboto ;
+
+3 ways:
+1. Inline StyleSheet: Writing css as a attribute of html element.
+
+    Syntax:
+
+        <tagName style="property: value; property: value; property: value; property: value"></tagName>
+
+Drawbacks:
+1. Code Duplication.
+2. Merging html and css code.
+
+2. Internal StyleSheet: Writing css as an tag in head tag.
+
+    Syntax:
+
+        <head>
+            <style>
+                selector {
+                    property: value;
+                    property: value;
+                    property: value;
+                    property: value;
+                }
+
+            </style>
+        </head>

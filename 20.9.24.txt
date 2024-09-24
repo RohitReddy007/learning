@@ -1,0 +1,28 @@
+Types of Elements
+
+1. Block level elements: Occupies the space of the parent element.
+
+    Eg. Div, Para, Header, 
+
+2. Inline Elements: Occupies the space of the content of a element.
+
+    Eg. Image, Anchor
+
+Float: Displays the content side by side.
+
+    > Converts block level elements into inline elements.
+
+    Syntax:
+
+        float: left | right;
+
+        left - Starts displaying the elements from left side.
+
+        right - Starts displaying the elements from right side.
+
+
+        Margin-left + padding-left + border-left + width + Margin-right + padding-right + border-right
+
+Task: Design - How Can We HelpYour with Appco! block of website
+
+https://preview.colorlib.com/theme/appco/

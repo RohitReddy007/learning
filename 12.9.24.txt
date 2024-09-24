@@ -1,0 +1,69 @@
+HTML
+
+> Hyper Text Markup language
+> It consists of Predefined Tags/Elements
+> It helps us in displaying content in the web browser.
+
+    Predefined Tags / Elements
+
+        Syntax:
+
+            <tagName>Content</tagName>
+
+            <tagName> - Starting tag
+
+            Content - Actual text (Needs to placed in between starting and ending tag)
+
+            </tagName> - Ending tag
+
+> To write html source code, we need to create a file with extension called .html
+
+    Syntax:
+
+        fileName.html
+
+> Process to compile html source code
+
+    > File Explorer - Navigate to particular file - Double click on the html file.
+
+> To display title for the web page.
+
+    Syntax:
+
+        <head>
+            <title>Title for the web page</title>
+        </head>
+
+> To display icon for the web page:
+
+    Syntax:
+
+        <link rel="icon" href="url" />
+
+            rel - relation
+
+            href - hyper reference
+
+Attribute: Adds additional functionality to the tag.
+
+    Syntax:
+
+        <tagName attributeName1=value1 attributeName2=value2 attributeName3=value3></tagName>
+
+Headers - Add heading in the web page.
+
+    h1 - h6
+
+        <h1></h1>
+
+        <h2></h2>
+
+        <h3></h3>
+
+        <h4></h4>
+
+        <h5></h5>
+
+        <h6></h6>
+
+    > Difference between each header tag is font size.

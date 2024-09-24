@@ -1,0 +1,65 @@
+Types of Stylesheets
+1. Inline Stylesheet
+2. Internal Stylesheet
+3. External Stylesheet
+
+> External StyleSheet:
+
+    Syntax:
+
+        fileName.css
+
+        selector {
+            property: value;
+            property: value;
+            property: value;
+            property: value;
+        }
+
+        fileName.html
+
+        <head>
+            <link rel="stylesheet" href="relativePath" />
+        </head>
+
+selector - tagName/className/idName
+
+tagName - Applies css for matching tag in html
+class - Applies css for specific tags.
+id - Applies css for specific tag.
+
+class
+    Syntax:
+
+        <tagName class="className"></tagName>
+
+
+    .className {
+        property: value;
+        property: value;
+        property: value;
+    }
+
+Id:
+    Syntax:
+
+        <tagName id="idName"></tagName>
+
+    #idName {
+        property: value;
+        property: value;
+        property: value;
+    }
+
+background-color
+
+Background Properties:
+background-image - Applies image as background
+background-color - Applies color as background
+background-size: 100px | contain | cover - Specifies the size of the image.
+background-position: top left | top right | bottom left | bottom right | center center; - Specifies the position of image.
+background-attachment: scroll | fixed - Used to fixed or scroll image along with content.
+background-repeat: no-repeat | repeat; - Used to control the repetation of the image.
+
+Task: 
+https://preview.colorlib.com/theme/create/

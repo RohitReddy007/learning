@@ -1,0 +1,79 @@
+Text Alignment: Aligns the text in different positions.
+
+    Syntax:
+
+        text-align: left | center | right;
+
+Padding: Applies empty space between content and border.
+
+    Syntax:
+
+        padding: 10px;
+
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+Margin: Applies empty space between border and other tags.
+
+    Syntax:
+
+        margin: 10px;
+
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+Border: Applies border for the tags.
+
+    Syntax:
+
+        border: border-width border-style border-color;
+
+        border-left: border-width border-style border-color;
+
+        border-right: border-width border-style border-color;
+
+        border-top: border-width border-style border-color;
+
+        border-bottom: border-width border-style border-color;
+
+Box Model
+
+    Margin -> Border -> Padding -> Width;
+
+    Margin -> Border -> Padding -> height;
+
+Color:
+
+    Syntax:
+
+        color: white
+
+Color Codes:
+1. Hex Codes
+2. RGB Format
+
+1. Hex Codes:
+
+    Hexa Decimal 
+        black     white
+        #000000 - #FFFFFF
+
+        1st two values - Red
+        2nd two vlaues - Green
+        3rd two values - Blue
+
+
+        #f2e9d8
+
+2. RGB Format:
+
+    Syntax:
+                black           white
+        color: rgb(0, 0, 0); - rgb(255, 255, 255);
+
+Task:
+https://preview.colorlib.com/theme/appco/
